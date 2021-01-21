@@ -1,0 +1,278 @@
+.video {
+    overflow: hidden;
+    z-index: 0;
+    direction: ltr;
+    height: 731.812px;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    pointer-events: none;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+}
+
+.row {
+    width:100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+@media (max-width:1024px){
+    .row{
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap}
+}
+
+.container {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    max-width:1140px;
+}
+
+.column {
+    min-height:1px;
+}
+
+@media (max-width: 767px){
+    .column {
+        width: 70%;
+    }
+}
+
+.elementorColumnWrap {
+    position:relative;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:100%;
+}
+
+.elementorWidgetWrap {
+    max-width:100%
+}
+
+.elementorWidgetContainer{
+    -webkit-transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    transition: background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    -o-transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+    text-align: center;
+}
+
+.elementorWidgetHeading .elementorHeadingTitle[class*=elementorSize-]>a{
+    color:inherit;
+    font-size:inherit;
+    line-height:inherit;
+    text-align: center;
+}
+.elementorWidgetHeading .elementorHeadingTitle.elementorSizeSmall{font-size:15px}
+.elementorWidgetHeading .elementorHeadingTitle.elementorSizeMedium{font-size:19px}
+.elementorWidgetHeading .elementorHeadingTitle.elementorSizeLarge{font-size:29px}
+.elementorWidgetHeading .elementorHeadingTitle.elementorSizeXl{font-size:39px}
+.elementorWidgetHeading .elementorHeadingTitle.elementorSizeXxl{font-size:59px}
+
+@media (max-width:767px)
+{
+    .elementorWidgetWrap{
+        max-width:100%
+    }
+    }
+
+.elementorWidgetWrap>.elementorElement.elementorAbsolute{
+    position:absolute
+}
+.elementorWidgetWrap>.elementorElement.elementorFixed{
+    position:fixed
+}
+
+.elementorHeadingTitle{
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 6.2em;
+    font-weight: 600;
+    line-height: 0.5em;
+    text-shadow: 0px 0px 19px rgba(0,0,0,0.89);
+    padding:0;
+    margin: 0;
+}
+
+.elementorHeadingTitle[class*=elementor-size-]>a{
+    color:inherit;
+    font-size:inherit;
+}
+
+.span {
+    font-size:50px;
+}
+
+.section {
+    position: relative;
+    background: url(https://thedentistsatgc.com/wp-content/uploads/2019/12/dentist-chair.jpg) 50% 50%;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 150px 0px 150px 0px;
+}
+
+
+.section 
+.container{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+    
+}
+
+@media (max-width: 767px){
+.section {
+    padding: 10px 0px 10px 0px;
+}
+}
+@media (max-width:1024px){
+    .section .container{
+        -ms-flex-wrap:wrap;
+        flex-wrap:wrap
+    }}
+.section .section-boxed>
+    .container{
+        max-width:1140px
+    }
+
+.section.section-stretched{
+        position:relative;
+        width:100%
+    }
+
+.elementorStarRating{
+        color:#ccd6df;
+        font-family:eicons;
+        display:inline-block
+    }
+
+.elementorStarRating i{
+            display:inline-block;
+            position:relative;
+            font-style:normal;
+            cursor:default
+        }
+
+.elementorStarRating i:before{
+        content:"\e934";
+        display:block;
+        font-size:inherit;
+        font-family:inherit;
+        position:absolute;
+        overflow:hidden;
+        color:#f0ad4e;
+        top:0;
+        left:0
+    }
+
+    .elementorStarFull{
+        display: inline-block;
+        font-size: normal;
+        font-family: inherit;
+        overflow: hidden;
+        color: #f0ad4e;
+    }
+    .elementorStarRating .elementor-star-empty:before{
+            content:none
+        }
+    .elementorStarRating .elementor-star-1:before{
+        width:10%
+    }
+    
+    .elementorStarRating .elementor-star-2:before{
+        width:20%
+    }
+
+    .elementorStarRating .elementor-star-3:before{
+        width:30%
+    }
+
+    .elementorStarRating .elementor-star-4:before{
+        width:40%
+    }
+
+    .elementorStarRating .elementor-star-5:before{
+        width:50%
+    }
+    
+    .elementorStarRating .elementor-star-6:before{
+        width:60%
+    }
+    
+    .elementorStarRating .elementor-star-7:before{
+        width:70%
+    }
+    
+    .elementorStarRating .elementor-star-8:before{
+        width:80%
+    }
+    .elementorStarRating .elementor-star-9:before{
+        width:90%
+    }
+    .elementorStarRatingWrapper{
+        text-align: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-size: 37px;
+    }
+
+
+    .elementorScreenOnly,.screenReaderText,.screenReaderText{
+        position:absolute;
+        top:-10000em;
+        width:1px;
+        height:1px;
+        margin:-1px;
+        padding:0;
+        overflow:hidden;
+        clip:rect(0,0,0,0);
+        border:0
+    }
+        
+    .elementorWidgetTextEditor {
+        display:inline-block;
+        color: #ffffff;
+        font-family: "Roboto", Sans-serif;
+        font-size: 1.5em;
+        font-style: italic;
+    }
+
+    .elementorWidget:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .elementorWidget {
+        position: relative;
+    }
+
+    .elementorWidget:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+.icon {
+    display: inline-block;
+    font-family: eicons;
+    font-size: inherit;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
